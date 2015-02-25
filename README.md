@@ -1,6 +1,7 @@
 
 Deve ter instalado o MongoDB para rodar em localhost
 
+
 ```
 bundle install
 rake db:seed
