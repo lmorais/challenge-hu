@@ -1,0 +1,105 @@
+------------------------------------------------------
+Api::ListTest: test_#get_should_return_json_with_lists
+------------------------------------------------------
+--------------------------------------------------------------
+Api::ListTest: test_#post_should_return_json_with_created_list
+--------------------------------------------------------------
+------------------------------------------------------
+Api::ListTest: test_#get_should_return_json_with_lists
+------------------------------------------------------
+--------------------------------------------------------------
+Api::ListTest: test_#post_should_return_json_with_created_list
+--------------------------------------------------------------
+-------------------------------------------------------
+Api::ListTest: test_#get_should_return_json_with_hotels
+-------------------------------------------------------
+--------------------------------------------------------------
+Api::ListTest: test_#post_should_return_json_with_created_list
+--------------------------------------------------------------
+-------------------------------------------------------
+Api::ListTest: test_#get_should_return_json_with_hotels
+-------------------------------------------------------
+-------------------------------------------------------
+Api::ListTest: test_#get_should_return_json_with_hotels
+-------------------------------------------------------
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0258ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4134ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2280ms
+------------------------------------------------------
+Api::ListTest: test_#get_should_return_json_with_lists
+------------------------------------------------------
+--------------------------------------------------------------
+Api::ListTest: test_#post_should_return_json_with_created_list
+--------------------------------------------------------------
+-------------------------------------------------------
+Api::ListTest: test_#get_should_return_json_with_hotels
+-------------------------------------------------------
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0480ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3112ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2069ms
+-------------------------------------------------------
+Api::ListTest: test_#get_should_return_json_with_hotels
+-------------------------------------------------------
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0565ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2777ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2078ms
+-------------------------------------------------------
+Api::ListTest: test_#get_should_return_json_with_hotels
+-------------------------------------------------------
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0422ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3310ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2171ms
+-------------------------------------------------------
+Api::ListTest: test_#get_should_return_json_with_hotels
+-------------------------------------------------------
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0293ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2729ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2132ms
+--------------------------------------------------------
+Api::HotelTest: test_#get_should_return_json_with_hotels
+--------------------------------------------------------
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0492ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2659ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1955ms
+--------------------------------------------------------
+Api::HotelTest: test_#get_should_return_json_with_hotels
+--------------------------------------------------------
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0399ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2672ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2021ms
+--------------------------------------------------------
+Api::HotelTest: test_#get_should_return_json_with_hotels
+--------------------------------------------------------
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0631ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2966ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2009ms
+--------------------------------------------------------
+Api::HotelTest: test_#get_should_return_json_with_hotels
+--------------------------------------------------------
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0070ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2894ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2020ms
+--------------------------------------------------------
+Api::HotelTest: test_#get_should_return_json_with_hotels
+--------------------------------------------------------
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0529ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2918ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2225ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0304ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2889ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2094ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9992ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2764ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1979ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0466ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2676ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2055ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0541ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2990ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1988ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0129ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2706ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1946ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0061ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3082ms
+  MOPED: 127.0.0.1:27017 QUERY        database=todo_rails_api_test collection=hotels selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1967ms
